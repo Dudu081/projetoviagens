@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+
+<!--Link Css-->
+    <link rel="stylesheet" href="Css/cadastrar.css">
+
+</head>
+<body>
+
+    <div class="voltar">
+        <button class="s0"><a href="">Voltar</button></a>
+    </div>
+
+    <div class="cad">
+        <h1>Cadastre-se</h1>
+        <br><br>
+
+        <form method="post" action="cadastro.php">
+
+        <input class="info" type="text" placeholder="E-mail">
+        <br><br>
+        <input class="info" type="password" placeholder="Senha">
+        <br><br>
+        <input class="btn" type="submit" placeholder="Enviar">
+        </form>
+    </div>  
+</body>
+</html>
